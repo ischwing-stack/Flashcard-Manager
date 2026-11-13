@@ -2,7 +2,16 @@
 from drafter import *
 from dataclasses import dataclass, field
 
-
+set_website_title("Flashcard Manager")
+set_site_information(
+    author="Ian Schwing",
+    description="A flashcard study application that allows students to create,view, edit, delete, and organize flashcards by subject. Users can study their flashcards, take quizzes, track their scores, and mark cards as mastered.",
+    sources="Drafter Planning Tool (V2.0.0b1)",
+    planning=["Studygame.pdf", "FlashcardManager.pdf"],
+    links=["https://ischwing-stack.github.io/Flashcard-Manager/"]
+)
+hide_debug_information()
+set_website_framed(False)
 # -------------------------
 # DATA CLASSES
 # -------------------------
